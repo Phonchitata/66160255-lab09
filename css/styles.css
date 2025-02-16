@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#user-list {
+    max-width: 500px;
+    margin: auto;
+}
+
+.user-item {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.user-item:hover {
+    background: #f1f1f1;
+}
+
+.user-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.user-item p {
+    margin: 5px 0 0;
+    color: #6c757d;
+    font-size: 14px;
+}
